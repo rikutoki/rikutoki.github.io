@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>自己紹介</title>
+  <style>
+    /* ページ全体の基本スタイル */
+  body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+  /* タイトルを青色に変更 */
+  h1 {
+    color: #0077cc;
+  }
+
+  /* 自己紹介文のフォントサイズを少し大きく */
+  p {
+    font-size: 1.2em;
+  }
+
+  /* リストの項目にチェックマークの絵文字を追加 */
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  ul li::before {
+    content: "✅ ";
+    margin-right: 5px;
+    color: #28a745;
+  }
+  /* SNSリンクのスタイル */
+  a {
+    color: #666;            /* グレーの文字色 */
+    text-decoration: none; /* 下線をなくす */
+    transition: color 0.3s ease; /* 色変化にアニメーションを追加 */
+  }
+
+  /* ホバー時の文字色変更 */
+  a:hover {
+    color: #333;            /* 濃いグレーに変更 */
+  }
+
+  /* ボタンのスタイル */
+  button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #005fa3;
+  }
+  </style>
+  
+  <script>
+    function showMessage() {
+      alert('AIと学んでます！');
+    }
+  </script>
+
+</head>
+<body>
+  <h1>こんにちは、陸時です！</h1>
+
+  <p>
+    技術や言語の探究が好きな好奇心旺盛タイプです。日々、プログラミングや物理、言語の謎に挑戦しています。
+  </p>
+
+  <img src="https://via.placeholder.com/150" alt="私のプロフィール画像">
+
+  <h2>好きなこと</h2>
+  <ul>
+    <li>C言語でバグと格闘すること</li>
+    <li>英語の文法パズルを解くこと</li>
+    <li>物理現象の数式で遊ぶこと</li>
+    <li>Windowsのカスタマイズ</li>
+  </ul>
+
+  <button onclick="showMessage()">クリックしてね</button>
+
+
+  <h2>SNSでつながりましょう</h2>
+  <ul>
+    <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+    <li><a href="https://github.com/yourprofile" target="_blank">GitHub</a></li>
+    <li><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+  </ul>
+</body>
+</html>
